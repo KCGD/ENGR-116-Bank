@@ -19,7 +19,9 @@
       "./src/**/*"
     ],
     "targets": [
-      "linux-x64"
+      "linux-x64",
+      "win-x64",
+      "mac-x64"
     ]
   },
   "bin": "main.js"
