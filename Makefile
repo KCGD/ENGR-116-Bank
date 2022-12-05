@@ -2,7 +2,7 @@ default:
 	npx tsc
 
 run:
-	make clean
+	make clean || true
 	make
 	@echo "--------------------START MAIN--------------------"
 	@node main
